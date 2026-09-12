@@ -7,9 +7,11 @@ An intern with temporary contributor access deployed a “Test Environment” ov
  Multi-User Azure training tenant, read only access.
 
 ## Investigation
-With this first action we are investigating the resource groups to see if anything is new. We see off the rip that one resource group does not follow the naming convention of rg-workload_id-env_indicator-region-instance_number.<img width="661" height="65" alt="Screenshot 2026-09-12 093927" src="https://github.com/user-attachments/assets/6f7a4c95-7c5a-4938-8193-a85bd4068d59" />
+With this first action we are investigating the resource groups to see if anything is new. We see off the rip that one resource group does not follow the naming convention of rg-workload_id-env_indicator-region-instance_number.<img width="521" height="32" alt="Screenshot 2026-09-12 115610" src="https://github.com/user-attachments/assets/04c455d0-cc7a-4330-9949-22ddcb5f6926" />
 
-With the next step we are seeing what is inside the group, the intern only deployed one item. On the left hit the tags menu and you’ll see there are tags available for the resource. This tag is what is used for the intern to document stuff internally.<img width="858" height="347" alt="Screenshot 2026-09-12 094244" src="https://github.com/user-attachments/assets/d38d0650-ac0e-4b52-8e03-7cff0d2e31bb" />
+
+With the next step we are seeing what is inside the group, the intern only deployed one item. On the left hit the tags menu and you’ll see there are tags available for the resource. This tag is what is used for the intern to document stuff internally.<img width="582" height="345" alt="Step 2 redacted" src="https://github.com/user-attachments/assets/1831389a-78f1-4475-9847-7daa90f666d1" />
+
 
 Now we will see where the resource came from. Checking the deployment tab on the left under “Settings” drop down you’ll see where it has the deployment name. As we see here it also does not follow naming convention.<img width="950" height="662" alt="Screenshot 2026-09-12 094524" src="https://github.com/user-attachments/assets/74105ad6-27dd-435e-bb2c-fec37c33da70" />
 
@@ -32,6 +34,14 @@ Update needed for naming convention policy effect type from “audit” to “de
 
 
 • Speak to the person who is in charge of the intern and checking what the intern has done in the environment before they leave for the weekend to prevent issues such as this.
+
+
+•Review who holds the contributor access and for how long
+
+
+•If deployment is in audit document why it's intentional versus the normal policy
+
+
 
 
 ## What I learned
