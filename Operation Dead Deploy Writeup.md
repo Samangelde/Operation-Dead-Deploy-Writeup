@@ -17,7 +17,9 @@ Now we will see where the resource came from. Checking the deployment tab on the
 
 According to MadHat Labs, there should be a policy following naming convention. We can inspect if this is active for this interns resource group they created. Under the “Settings” drop down you’ll see “Policy” Clicking that you’ll see it says “Non-Compliant”. Going to the “Assignments” drop down under “Authoring” you’ll see where under Assignments Name it says naming convention.<img width="933" height="663" alt="Screenshot 2026-09-12 095138" src="https://github.com/user-attachments/assets/5b3e2feb-681d-49c3-a647-4f887b786653" />
 
-Under scope it says Policy. Click the Naming Convention. Under Parameters in the bottom you’ll see the Value is “Audit” Audit allows a resource to be created without following policy and it’s just flagged. This is suppose to be “Deny” which never would’ve allowed the RG to be created not following the governance.<img width="956" height="680" alt="Screenshot 2026-09-12 095150" src="https://github.com/user-attachments/assets/9fe729b0-51e9-4b92-8520-8228cb1b4156" />
+Under scope it says Policy. Click the Naming Convention. Under Parameters in the bottom you’ll see the Value is “Audit” Audit allows a resource to be created without following policy and it’s just flagged. This is suppose to be “Deny” which never would’ve allowed the RG to be created not following the governance.<img width="583" height="596" alt="Step  6 redacted" src="https://github.com/user-attachments/assets/4dcd6b6a-059b-4470-99db-8542beda1bdc" />
+
+
 
 
 ## What broke / what surprised me
